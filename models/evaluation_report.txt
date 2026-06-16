@@ -1,0 +1,55 @@
+============================================================
+  ValSafe ML — Evaluation Report
+  Generated: 2026-06-16 13:09
+============================================================
+
+────────────────────────────────────────────────────────────
+  Target: severity_level
+  Accuracy : 0.3610
+  CV Score : 0.3600 ± 0.0109
+
+              precision    recall  f1-score   support
+
+        high       0.31      0.30      0.30       270
+         low       0.33      0.36      0.34       304
+      medium       0.42      0.40      0.41       426
+
+    accuracy                           0.36      1000
+   macro avg       0.35      0.35      0.35      1000
+weighted avg       0.36      0.36      0.36      1000
+
+
+────────────────────────────────────────────────────────────
+  Target: type
+  Accuracy : 0.2140
+  CV Score : 0.2222 ± 0.0143
+
+                  precision    recall  f1-score   support
+
+        incident       0.24      0.25      0.25       136
+          injury       0.22      0.28      0.25       150
+       near_miss       0.12      0.11      0.12       141
+     observation       0.20      0.15      0.17       142
+ property_damage       0.35      0.43      0.39       145
+      unsafe_act       0.13      0.11      0.12       142
+unsafe_condition       0.17      0.16      0.17       144
+
+        accuracy                           0.21      1000
+       macro avg       0.21      0.21      0.21      1000
+    weighted avg       0.21      0.21      0.21      1000
+
+
+────────────────────────────────────────────────────────────
+  Target: status
+  Accuracy : 0.5360
+  CV Score : 0.5348 ± 0.0074
+
+              precision    recall  f1-score   support
+
+   Escalated       0.12      0.13      0.13       116
+     Pending       0.20      0.18      0.19       197
+    Resolved       0.69      0.71      0.70       687
+
+    accuracy                           0.54      1000
+   macro avg       0.34      0.34      0.34      1000
+weighted avg       0.53      0.54      0.53      1000
